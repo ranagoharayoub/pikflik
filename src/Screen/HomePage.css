@@ -1,0 +1,35 @@
+.home-cont{
+    min-height: max-content;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.home-cont .main{
+    min-height: 70vh;
+    width: 80%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+}
+
+.home-cont .upper{
+    min-height: 50vh;
+    width: 80%;
+    background-color: cadetblue;
+}
+
+.home-cont .middle{
+    min-height: 50vh;
+    width: 80%;
+    background-color: olive;
+}
+
+.home-cont .lower{
+    min-height: 50vh;
+    width: 80%;
+    background-color: maroon;
+}
