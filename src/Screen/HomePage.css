@@ -17,15 +17,18 @@
 }
 
 .home-cont .upper{
-    min-height: 50vh;
+    min-height: 100vh;
     width: 80%;
     background-color: cadetblue;
+    display: flex;
 }
 
 .home-cont .middle{
     min-height: 50vh;
     width: 80%;
     background-color: olive;
+    display: flex;
+    justify-content: center;
 }
 
 .home-cont .lower{

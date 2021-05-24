@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './HomeMiddle.css'
 function HomeMiddle() {
     return (
-        <div>
-            HomeMiddle
+        <div className='home-middle'>
+            
         </div>
     )
 }
