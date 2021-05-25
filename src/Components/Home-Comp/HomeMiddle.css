@@ -1,5 +1,37 @@
 .home-middle{
     min-height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-middle .title-sect{
+    min-height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+.home-middle .story-text{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.home-middle .love-text{
+    font-weight: 600;
+    font-size: small;
+}
+
+.home-middle .cards-sect{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    background-color: cornsilk;
     
 }

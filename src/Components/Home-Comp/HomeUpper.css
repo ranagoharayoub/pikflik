@@ -18,18 +18,39 @@
     height: 100%;
     width: 25%;
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-text{
+    font-size: large;
+    font-weight: bold;
+}
+
+.work-texts{
+    font-weight: 500;
 }
 
 .three-tiles .free-tile{
     height: 100%;
     width: 25%;
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .three-tiles .guarantee-tile{
     height: 100%;
     width: 25%;
     background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .home-upper .magic-cont{

@@ -1,0 +1,115 @@
+.home-bottom{
+    min-height: 100%;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-bottom .video-cont{
+    min-height: 45%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-bottom .video-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: small;
+    font-weight: 900;
+    color: #eb184b;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.video-cont .our-text{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+}
+
+.home-bottom .rating-cont{
+    min-height: 20%;
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    
+}
+
+.rating-cont .bulk-rating-cont{
+    width: 35%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bulk-rating-cont .bulk-text{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.rating-cont .three-image-cont{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-image-cont .left-img{
+    height: 50%;
+    width: 20%;
+    background-color: gray;
+}
+
+.three-image-cont .middle-img{
+    height: 50%;
+    width: 30%;
+    background-color: gray;
+}
+
+.three-image-cont .right-img{
+    height: 40%;
+    width: 25%;
+    background-color: gray;
+}
+
+.rating-cont .white-label-cont{
+    width: 35%;
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.white-label-cont .white-text{
+    /* font-size: large; */
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.white-label-cont .includes-text{
+    font-size: medium;
+}
+
+.home-bottom .last-cards-cont{
+    min-height: 35%;
+    width: 100%;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-between;
+}

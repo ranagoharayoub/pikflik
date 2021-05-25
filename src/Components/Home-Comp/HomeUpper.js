@@ -5,13 +5,16 @@ function HomeUpper() {
         <div className='home-upper'>
             <div className='three-tiles'>
                 <div className='photo-tile'>
-
+                    <div className='photo-text'>Photo Comes Alive!</div>
+                    <div className='work-texts' >Work with both iOS % android </div>
                 </div>
                 <div className='free-tile'>
-
+                    <div className='photo-text'>Free Shipping within the USA</div>
+                    <div className='work-texts'>Created for you in about a week</div>
                 </div>
                 <div className='guarantee-tile'>
-
+                    <div className='photo-text'>Exuberance Guaranteed</div>
+                    <div className='work-texts'>Don't love it? Get a full refund</div>
                 </div>
             </div>
             <div className='magic-cont'>
