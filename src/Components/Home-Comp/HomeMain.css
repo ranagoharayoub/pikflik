@@ -82,5 +82,7 @@
 }
 
 .main-right .free{
+    display: flex;
+    align-items: center;
     font-weight: bolder;
 }

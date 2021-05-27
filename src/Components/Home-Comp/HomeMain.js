@@ -23,7 +23,7 @@ function HomeMain() {
                 <div className='transform'>Transform your photo (and video!) into magical decor</div>
                 <div className='create'>Create your 5x7 1" thick HD Acrylic Block using your favorite digital memories</div>
                 <button className='start-btn'>Get Started</button>
-                <div className='free'>Free nationwide Shipping!</div>
+                <div className='free'><img src='/Untitled-1-04.png' alt='shipping' height='30px'></img> Free nationwide Shipping!</div>
             </div>
         </div>
     )
