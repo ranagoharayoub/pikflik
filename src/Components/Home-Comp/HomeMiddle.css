@@ -27,11 +27,7 @@
 }
 
 .home-middle .cards-sect{
-    flex: 1;
+    /* min-height: 100%; */
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    overflow: auto;
-    background-color: cornsilk;
-    
 }
