@@ -1,5 +1,45 @@
 .navbar-cont{
-    min-height: 15vh;
+    height: 15vh;
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.navbar-cont .logo{
+    height: 100%;
+    width: 200px;
+    /* background-color: black; */
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('../Logo/Logo-01.png'); */
+}
+
+.navbar-cont .nav-btn{
+    height: max-content;
+    /* background-color: greenyellow; */
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-btn .faq-text, .nav-btn .gift-text{
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-btn .get-btn{
+    padding: 10px 30px;
+    border: 3px solid #eb184b;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 15px;
+    color: #eb184b;
+    cursor: pointer;
+}
+
