@@ -1,21 +1,21 @@
 .home-main{
     min-height: 100%;
     width: 100%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     display: flex;
 }
 
 .home-main .main-left{
     min-height: 100%;
     width: 60%;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     display: flex;
 }
 
 .home-main .main-left .left{
     min-height: 100%;
     width: 45%;
-    background-color: goldenrod;
+    /* background-color: goldenrod; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 .home-main .main-left .right{
     min-height: 100%;
     width: 55%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -52,7 +52,7 @@
 .home-main .main-right{
     min-height: 100%;
     width: 40%;
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

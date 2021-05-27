@@ -9,7 +9,7 @@
     margin-top: 5%;
     min-height: 30%;
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -17,7 +17,7 @@
 .three-tiles .photo-tile{
     height: 100%;
     width: 25%;
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +36,7 @@
 .three-tiles .free-tile{
     height: 100%;
     width: 25%;
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@
 .three-tiles .guarantee-tile{
     height: 100%;
     width: 25%;
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,7 +67,7 @@
 .magic-cont .text-box{
     width: 60%;
     min-height: 80%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,7 +1,7 @@
 .home-cont{
     min-height: max-content;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
 .home-cont .main{
     min-height: 70vh;
     width: 80%;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     display: flex;
     justify-content: center;
 }
@@ -19,14 +19,14 @@
 .home-cont .upper{
     min-height: 100vh;
     width: 80%;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
 }
 
 .home-cont .middle{
     min-height: 60vh;
     width: 100%;
-    background-color: olive;
+    /* background-color: olive; */
     display: flex;
     justify-content: center;
     
@@ -35,6 +35,6 @@
 .home-cont .lower{
     min-height: 150vh;
     width: 80%;
-    background-color: maroon;
+    /* background-color: maroon; */
     display: flex;
 }
