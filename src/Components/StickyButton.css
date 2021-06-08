@@ -1,0 +1,17 @@
+.sticky-btn {
+  position: sticky;
+  bottom: 0px;
+  right: 0%;
+  background-color:white;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px; 
+  z-index: 99999999999999999999999999999;
+  
+}
+.stky-btn{
+    height: 50px;
+    border-radius: 50%; 
+}

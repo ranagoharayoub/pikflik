@@ -19,16 +19,16 @@ function Footer() {
                     </div>
                     <div className="footer-content">
                         <div className="footer-content1">
-                        <a href="www.google.com" className="lnks">Contact Us</a ><br></br>
-                        <a href="www.google.com" className="lnks">Careers</a ><br></br>
-                        <a href="www.google.com" className="lnks">Frequent Questions</a ><br></br>
-                        <a href="www.google.com" className="lnks">Gift Card</a ><br></br>
-                        <a href="www.google.com" className="lnks">Accessibility Statement</a >
+                        <a href="https://www.google.com/" className="lnks">Contact Us</a ><br></br>
+                        <a href="https://www.google.com/" className="lnks">Careers</a ><br></br>
+                        <a href="https://www.google.com/" className="lnks">Frequent Questions</a ><br></br>
+                        <a href="https://www.google.com/" className="lnks">Gift Card</a ><br></br>
+                        <a href="https://www.google.com/" className="lnks">Accessibility Statement</a >
                     </div>
                     <div className="footer-content2">
-                        <a href="www.google.com" className="lnks">PRIVACY POLICY</a ><br></br>
-                        <a href="www.google.com" className="lnks">IMPRESSUM</a ><br></br>
-                        <a href="www.google.com" className="lnks">TERMS OF USE</a >
+                        <a href="https://www.google.com/" className="lnks">PRIVACY POLICY</a ><br></br>
+                        <a href="https://www.google.com/" className="lnks">IMPRESSUM</a ><br></br>
+                        <a href="https://www.google.com/" className="lnks">TERMS OF USE</a >
                     </div>
                     </div>
                 </div>
