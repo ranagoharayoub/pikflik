@@ -4,10 +4,13 @@ import './HomeMain.css'
 function HomeMain() {
     return (
         <div className='home-main'>
+            <div className="home-mobile">
+                <div className='mobile-transform'>Transform your photo (and video!) into magical decor</div>
+                <div className="mobile-block"></div>
+            </div>
             <div className='main-left'>
                 <div className='left'>
                     <div className='left-img'>
-
                     </div>
                 </div>
                 <div className='right'>

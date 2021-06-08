@@ -8,7 +8,7 @@ function LastCards({title, disc}) {
                 <div className='cards-title-text'>{title}</div>
                 <div className='disc-text'>{disc}</div>
             </div>
-            <button className='learn-btn'>Learn More</button>
+            <div className="btn-div"><button className='learn-btn'>Learn More</button></div>
         </div>
     )
 }

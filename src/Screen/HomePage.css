@@ -38,3 +38,38 @@
     /* background-color: maroon; */
     display: flex;
 }
+@media only screen and (max-width: 768px){
+.home-cont{
+    margin-top: 0vh;
+}
+}
+@media only screen and (max-width: 426px){
+    .home-cont .main{
+    min-height: 50vh;
+    width: 90%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.home-cont{
+    margin-top: 0vh;
+}
+.home-cont .upper {
+    min-height: 150vh;
+    width: 90%;
+    /* background-color: cadetblue; */
+    display: flex;
+}
+.home-cont .lower {
+    min-height: 150vh;
+    width: 100%;
+    /* background-color: maroon; */
+    display: flex;
+}
+.home-cont {
+    margin-top: 0vh;
+    height: 362vh;
+    /* background-color: aqua; */
+}
+}

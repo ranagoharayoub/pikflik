@@ -79,20 +79,116 @@
 .text-box .magic-text{
     font-size: x-large;
     font-weight: bolder;
-    width: 400px;
+    width: 100%;
 }
 
 .text-box .phone-text{
     margin-top: 2%;
     font-size: smaller;
     font-weight: 500;
-    width: 400px;    
+    width: 100%;    
 }
-
-
 .magic-cont .photo-box{
     margin-right: 2%;
     width: 30%;
     min-height: 80%;
     background-color: rgb(218, 224, 228);
+}
+@media only screen and (max-width:426px){
+    .home-upper .three-tiles {
+    margin-top: 46%;
+    min-height: 30%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.home-upper .three-tiles {
+    margin-top: 10%;
+    min-height: 50%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.three-tiles .photo-tile {
+    height: 100%;
+    width: 90%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.three-tiles .free-tile {
+    height: 100%;
+    width: 90%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.three-tiles .guarantee-tile {
+    height: 100%;
+    width: 90%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home-upper .magic-cont {
+    /* box-sizing: border-box; */
+    margin-top: 3%;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.magic-cont .text-box {
+    width: 100%;
+    /* min-height: 100%; */
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.magic-cont .photo-box {
+    margin-right: 0%;
+    width: 100%;
+    min-height: 50%;
+    background-color: rgb(218, 224, 228);
+}
+.magic-cont .text-box {
+    width: 100%;
+    min-height: 50%;
+    /* background-color: lightgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-box .magic-text {
+    font-size: 18px;
+    font-weight: bolder;
+    width: 100%;
+}
+.text-box .phone-text {
+    margin-top: 2%;
+    font-size: 12px;
+    font-weight: 500;
+    width: 100%;
+}
 }

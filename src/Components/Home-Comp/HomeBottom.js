@@ -21,7 +21,7 @@ function HomeBottom() {
                         <Star style={{ color: 'yellow' }}></Star>
                     </div>
                     <div className='bulk-text'>Bulk Orders Availabe</div>
-                    <div>Includes Custom Graving</div>
+                    <div className="bulk-includes">Includes Custom Graving</div>
                 </div>
                 <div className='three-image-cont'>
                     <div className='left-img'></div>
