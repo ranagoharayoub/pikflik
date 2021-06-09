@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import OwlCarousel from 'react-owl-carousel2';
 import 'react-owl-carousel2/lib/styles.css';
 import 'react-owl-carousel2/src/owl.theme.default.css';
 import PhotoCard from './Cards/PhotoCard'
 import './HomeMiddle.css'
-function HomeMiddle() {
+function HomeMiddle({width}) {
+    const [items, setitems] = useState(0)
+
+    useEffect(() => {
+        width >= '500' ? setitems(4): setitems(2)
+    }, [width])
+    
     const options = {
         // autoWidth:true,
-        autoheight: true, 
-        items: 4,
+        autoheight: true,
+        items: items,
         loop:true,
         rewind: true,
         autoplay: true,

@@ -5,7 +5,7 @@ import HomeUpper from '../Components/Home-Comp/HomeUpper'
 import HomeMain from '../Components/Home-Comp/HomeMain'
 import './HomePage.css'
 
-function HomePage() {
+function HomePage({width}) {
     return (
         <div className='home-cont'>
             <div className='main'>
@@ -15,7 +15,7 @@ function HomePage() {
                 <HomeUpper></HomeUpper>
             </div>
             <div className='middle'>
-                <HomeMiddle></HomeMiddle>
+                <HomeMiddle width={width}></HomeMiddle>
             </div>
             <div className='lower'>
                 <HomeBottom></HomeBottom>

@@ -14,7 +14,7 @@
     .photo-card{
     box-sizing: border-box;
     min-height: 40vh;
-    width: 24vw;
+    width: 50vw;
     background-color: white;
     border: 1px solid lightgray;
     display: flex;
@@ -37,7 +37,7 @@
     .photo-card{
     box-sizing: border-box;
     min-height: 40vh;
-    width: 24vw;
+    width: 50vw;
     background-color: white;
     border: 1px solid lightgray;
     display: flex;
@@ -60,7 +60,7 @@
     .photo-card{
     box-sizing: border-box;
     min-height: 40vh;
-    width: 24vw;
+    width: 50vw;
     background-color: white;
     border: 1px solid lightgray;
     display: flex;

@@ -19,7 +19,7 @@ function App() {
       <Router>
         <Navbar></Navbar>
         <Switch>
-          <Route path='/'> <HomePage></HomePage> </Route>
+          <Route path='/'> <HomePage width={width}></HomePage> </Route>
         </Switch>
         <Footer></Footer>
         <StickyButton width = {width}></StickyButton>
