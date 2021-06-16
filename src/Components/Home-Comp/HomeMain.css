@@ -24,9 +24,16 @@
 .left .left-img {
   min-height: 50%;
   width: 90%;
-  background-color: gray;
+  /* background-color: gray; */
+  /* background-image: url('/src/bottom\ left.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-position: 100% 100%; */
 }
-
+.left .left-image{
+  width: 100%;
+  height: 100%;
+}
 .home-main .main-left .right {
   min-height: 100%;
   width: 55%;
@@ -41,14 +48,24 @@
   min-height: 40%;
   width: 60%;
   background-color: gray;
+  /* background-image: url('/src/top\ image.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  background-position: 100% 100%; */
 }
-
+.right .right-image-1{
+  width: 100%;
+  height: 100%;
+}
 .right .right-img-2 {
   min-height: 50%;
   width: 90%;
-  background-color: gray;
+  /* background-color: gray; */
 }
-
+.right .right-image-2{
+  width: 100%;
+  height: 100%;
+}
 .home-main .main-right {
   min-height: 100%;
   width: 40%;

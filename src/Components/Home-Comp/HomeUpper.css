@@ -92,7 +92,11 @@
     margin-right: 2%;
     width: 30%;
     min-height: 80%;
-    background-color: rgb(218, 224, 228);
+    /* background-color: rgb(218, 224, 228); */
+}
+.magic-cont .photo-box-gif{
+    width: 100%;
+    height: 50vh;
 }
 @media only screen and (max-width:426px){
     .home-upper .three-tiles {
@@ -170,6 +174,10 @@
     width: 100%;
     min-height: 50%;
     background-color: rgb(218, 224, 228);
+}
+.magic-cont .photo-box-gif{
+    width: 100%;
+    height: 100%;
 }
 .magic-cont .text-box {
     width: 100%;

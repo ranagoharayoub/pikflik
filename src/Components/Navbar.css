@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
 }
-.sidebar{
+/* .sidebar{
     position: fixed;
     width: 50%;
     height: 100vh;
@@ -47,16 +47,22 @@ ul li i{
 }
 label #m-btn, label #cancel{
     cursor: pointer;
-    /* background: #042331;
-    border-radius: 3px; */
+    background: #042331;
+    border-radius: 3px;
     position: relative;
-}
+} */
 label #m-btn{
     top: 0px;
     right: 20px;
     padding-left: 6px 12px;
     color: #ec174d;
     z-index: 9999999;
+}
+label i{
+    margin-right: 20px;
+}
+#check{
+    display: none;
 }
 #check:checked ~ .sidebar{
     right: -50%;

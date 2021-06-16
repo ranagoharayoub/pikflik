@@ -26,7 +26,7 @@ function HomeMiddle({width}) {
         <div className='home-middle'>
             <div className='title-sect'>
                 <div className='story-text'>A Story in Every Photo</div>
-                <div className='love-text'>We love seeing the smiles on our customer faces!</div>
+                <div className='love-text'>We love seeing the smiles on our customers faces!</div>
             </div>
             <div className='cards-sect' >
                 <OwlCarousel options={options} >

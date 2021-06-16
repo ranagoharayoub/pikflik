@@ -13,9 +13,9 @@ function Footer() {
                     </div>
                     <div className='footer-follow-us'>
                         <div className='follow-us-heading'>Follow Us</div>
-                        <div className='follow-us-sections'>Instagram<br></br></div>
-                        <div className='follow-us-sections'>Facebook<br></br></div>
-                        <div className='follow-us-sections'>Twitter</div>
+                        <div className='follow-us-sections'><i class="fab fa-twitter"></i> Twitter</div>
+                        <div className='follow-us-sections'><i class="fab fa-instagram"></i> Instagram<br></br></div>
+                        <div className='follow-us-sections'><i class="fab fa-facebook-square"></i> Facebook<br></br></div>
                     </div>
                     <div className="footer-content">
                         <div className="footer-content1">
