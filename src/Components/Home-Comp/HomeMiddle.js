@@ -30,14 +30,11 @@ function HomeMiddle({width}) {
             </div>
             <div className='cards-sect' >
                 <OwlCarousel options={options} >
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
-                    <div className='item'><PhotoCard></PhotoCard></div>
+                    <div className='item'><PhotoCard img='slider image 1.jpeg' ></PhotoCard></div>
+                    <div className='item'><PhotoCard img='slider image 2.jpeg'></PhotoCard></div>
+                    <div className='item'><PhotoCard img='slider image 3.jpeg'></PhotoCard></div>
+                    <div className='item'><PhotoCard img='slider image 4.jpeg'></PhotoCard></div>
+                    <div className='item'><PhotoCard img='slider image 5.jpg'></PhotoCard></div>
                 </OwlCarousel>
             </div>
         </div>

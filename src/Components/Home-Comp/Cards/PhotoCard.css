@@ -1,25 +1,49 @@
 .photo-card{
     box-sizing: border-box;
-    min-height: 40vh;
-    width: 20vw;
+    min-height: 50vh;
+    min-width: 20vw;
     background-color: white;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     display: flex;
     flex-direction: column;
 }
-.card-txt1{
+
+.photo-card .img-sect{
+    height: 50vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+.photo-card .img-sect img{
+    object-fit: cover;
+}
+
+.card-txt1, .card-txt2{
     font-size: large;
+    background-color: gray;
+    color: white;
 }
 @media only screen and (max-width: 426px){
     .photo-card{
     box-sizing: border-box;
-    min-height: 40vh;
+    min-height: 35vh;
     width: 50vw;
     background-color: white;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     display: flex;
     flex-direction: column;
 }
+
+.photo-card .img-sect{
+    height: 35vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
 .owl-carousel .owl-item img {
     display: block;
     width: 100%;
@@ -36,13 +60,22 @@
 @media only screen and (max-width: 375px){
     .photo-card{
     box-sizing: border-box;
-    min-height: 40vh;
+    min-height: 35vh;
     width: 50vw;
     background-color: white;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     display: flex;
     flex-direction: column;
 }
+
+.photo-card .img-sect{
+    height: 25vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
 .owl-carousel .owl-item img {
     display: block;
     width: 100%;
@@ -59,13 +92,22 @@
 @media only screen and (max-width: 360px){
     .photo-card{
     box-sizing: border-box;
-    min-height: 40vh;
+    min-height: 30vh;
     width: 50vw;
     background-color: white;
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     display: flex;
     flex-direction: column;
 }
+
+.photo-card .img-sect{
+    height: 30vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
 .owl-carousel .owl-item img {
     display: block;
     width: 100%;
