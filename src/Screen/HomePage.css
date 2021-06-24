@@ -5,11 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .home-cont .main{
-    min-height: 70vh;
+    height: auto;
     width: 80%;
     /* background-color: lightcoral; */
     display: flex;
@@ -17,7 +17,7 @@
 }
 
 .home-cont .upper{
-    min-height: 100vh;
+    height: max-content;
     width: 80%;
     /* background-color: cadetblue; */
     display: flex;
@@ -37,6 +37,11 @@
     width: 80%;
     /* background-color: maroon; */
     display: flex;
+}
+@media only screen and (max-width: 1000px){
+.home-cont{
+    margin-top: 2vh;
+}
 }
 @media only screen and (max-width: 768px){
 .home-cont{

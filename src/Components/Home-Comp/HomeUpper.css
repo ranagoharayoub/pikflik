@@ -7,7 +7,7 @@
 
 .home-upper .three-tiles{
     margin-top: 5%;
-    min-height: 30%;
+    height: max-content;
     width: 100%;
     /* background-color: brown; */
     display: flex;
@@ -29,10 +29,13 @@
 .photo-text{
     font-size: large;
     font-weight: bold;
+    text-align: center;
 }
 
 .work-texts{
     font-weight: 500;
+    font-size: 16px;
+    text-align: center;
 }
 
 .three-tiles .free-tile{
@@ -58,17 +61,19 @@
 .home-upper .magic-cont{
     /* box-sizing: border-box; */
     margin-top: 2%;
-    height: 70%;
+    height: auto;
     width: 100%;
     background-color: rgb(241, 241, 241);
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .magic-cont .text-box{
     width: 60%;
-    min-height: 80%;
+    height: auto;
     /* background-color: lightgreen; */
     display: flex;
     flex-direction: column;
@@ -91,12 +96,47 @@
 .magic-cont .photo-box{
     margin-right: 2%;
     width: 30%;
-    min-height: 80%;
+    height: auto;
     /* background-color: rgb(218, 224, 228); */
 }
 .magic-cont .photo-box-gif{
     width: 100%;
-    height: 50vh;
+    height: auto;
+}
+@media only screen and (max-width:768px){
+    .photo-text{
+    font-size: small;
+    font-weight: bold;
+}
+.work-texts{
+    font-weight: 500;
+    font-size: 12px;
+}
+.text-box .magic-text {
+    font-size: large;
+    font-weight: bolder;
+    width: 100%;
+}
+.text-box .phone-text {
+    margin-top: 2%;
+    font-size: x-small;
+    font-weight: 500;
+    width: 100%;
+}
+}
+@media only screen and (max-width:500px){
+ 
+.text-box .magic-text {
+    font-size: medium;
+    font-weight: bolder;
+    width: 100%;
+}
+.text-box .phone-text {
+    margin-top: 2%;
+    font-size: xx-small;
+    font-weight: 500;
+    width: 100%;
+}
 }
 @media only screen and (max-width:426px){
     .home-upper .three-tiles {

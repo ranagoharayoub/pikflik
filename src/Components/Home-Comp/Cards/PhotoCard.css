@@ -20,10 +20,16 @@
     object-fit: cover;
 }
 
-.card-txt1, .card-txt2{
-    font-size: large;
-    background-color: gray;
-    color: white;
+.card-txt1 {
+    font-size: 16px;
+    font-weight: bold;
+    /* background-color: gray; */
+    color: black;
+}
+.card-txt2{
+    font-size: 13px;
+    /* background-color: gray; */
+    color:black;
 }
 @media only screen and (max-width: 426px){
     .photo-card{
@@ -37,7 +43,7 @@
 }
 
 .photo-card .img-sect{
-    height: 35vh;
+    height: max-content;
     width: auto;
     display: flex;
     justify-content: center;

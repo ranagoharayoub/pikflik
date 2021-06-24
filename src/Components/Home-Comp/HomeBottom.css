@@ -69,7 +69,7 @@
 }
 
 .three-image-cont .left-img{
-    height: 50%;
+    height: max-content;
     width: 30%;
     /* background-color: gray; */
 }
@@ -78,7 +78,7 @@
     height: 100%;
 }
 .three-image-cont .middle-img{
-    height: 50%;
+    height: max-content;
     width: 30%;
     /* background-color: gray; */
 }
@@ -87,7 +87,7 @@
     height: 100%;
 }
 .three-image-cont .right-img{
-    height: 50%;
+    height: max-content;
     width: 30%;
     /* background-color: gray; */
 }
@@ -200,6 +200,9 @@
 }
 .rating-cont .white-label-cont{
     margin-left: 15px;
+}
+.white-label-cont .white-text {
+   text-align: center;
 }
 }
 
